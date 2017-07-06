@@ -1,2 +1,4 @@
-# Wordpress-Admin-Favicon
-Wordpress Admin Favicon PHP
+// Admin Favicon Function
+add_action('admin_head', 'show_favicon');
+function show_favicon() {
+echo '<link href="ADD YOUR FAVICON LINK HERE" rel="icon" type="image/x-icon">';}
